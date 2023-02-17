@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+</head>
+<body>
+    <form method="GET">
+        First Name: <input type="text" name="firstname"><br>
+        Last Name: <input type="text" name="lastname"><br>
+        Birthday: <input type="date" name="date"><br>
+        E-mail: <input type="email" required name="email"><br>
+        Password: <input type="password" minlength="5" name="password">
+        Gender: <br>
+        <input type="radio" name="gender" value="male">Male<br>
+        <input type="radio" name="gender" value="female">Female<br>
+        <input type="radio" name="gender" value="other">Other<br>
+        Pets:<br>
+        <input type="checkbox" name="cats">Cats<br>
+        <input type="checkbox" name="dogs">Dogs<br>
+        
+        How much alcohol you drink: <br>
+        <input type="range" name="alc" min="0" max="140" meter="10"><br>
+
+
+
+        What car do you have:<br>
+        <select name="car">
+            <option value="volvo" value="volve">Volvo</option>
+            <option value="BMW" value="bmw">BMW</option>
+            <option value="AUDI" value="audi">AUDI</option>
+        </select><br>
+        <br>
+        <textarea rows="5" cols="20" name="text1"d>Tell us your opinion</textarea><br>
+        <input type="submit" value="Register! ">
+        <input type="reset"><br>
+    </form>
+</body>
+</html>
