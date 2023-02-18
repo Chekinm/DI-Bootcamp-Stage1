@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Three methods of using styles</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        p {
+            background-color: green;
+            color:  white;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <div> <!-- We describe the style of this element using linked style.css file -->
+        This div had styled using external css file
+    </div>
+    <p> <!-- We style this using style tag in the head section -->
+        This paragraph had styled using internal stypling method
+    </p>
+    <button style="background-color: orange; font-size: 18px;"> <!-- We style this using style attribute -->
+        This button had styled inline
+    </button>
+</body>
+</html>
+
+<!-- div: a red background, white text, a font size of 32px, center aligned, and bold
+p: a green background, white text, and a font size of 18px
+button: an orange background and a font size of 18px -->
