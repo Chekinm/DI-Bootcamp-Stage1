@@ -1,0 +1,25 @@
+#wrap {
+    background-color: #4ebbe3;
+    padding: 8px;
+}
+
+p {
+    font-family: sans-serif;
+    font-kerning: none ;
+}
+
+ul {
+    list-style-type: none;
+    font-family: sans-serif;
+    font-kerning: none ;
+}
+
+li {
+    text-align: center;
+    line-height: 1.3em;
+}
+
+li::first-letter {
+    font-size: 1.5em;
+    font-family: Tahoma, Geneva, sans-serif;
+}
