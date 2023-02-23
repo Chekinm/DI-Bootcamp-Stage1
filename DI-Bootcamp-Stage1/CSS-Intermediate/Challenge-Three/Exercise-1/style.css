@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    border: 1px black solid;
+    margin: 2px;
+}
+
+.header{
+    padding: 3px;
+    border: 1px black solid; 
+}
+
+.flexed-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.first-column {
+    inline-size: 25%;  
+}
+
+.second-column {
+    inline-size: 75%; 
+}
+
+.bottom {
+    inline-size: 100%;
+}
+
+
+.pink {
+    background-color: pink;
+    border: 1px black solid;
+    height: 100px;
+    margin: 15px;
+}
+
+
+.blue {
+    background-color: lightblue;
+    border: 1px black solid;
+    height: 100px;
+    margin: 15px 15px 15px 0px;
+}
+
+.yellow {
+    background-color:peru;
+    height: 100px;
+    border: 1px black solid;
+    margin: 0px 15px 15px 15px;
+}
+
