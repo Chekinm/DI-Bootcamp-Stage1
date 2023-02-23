@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    border: 1px black solid;
+    margin: 2px;
+}
+
+.header{
+    padding: 3px;
+    border: 1px black solid; 
+}
+
+.top {
+    inline-size: 100%;
+}
+
+.yellow {
+    background-color:peru;
+    height: 80px;
+    border: 1px black solid;
+    margin: 15px;
+}
+
+.second-row, .third-row {
+    display: flex;
+    flex-flow: row; 
+    inline-size: 100%;   
+    justify-content: space-between;
+    padding: 0px 15px;
+}
+
+.image, .pink, .violet, .green {
+    inline-size: calc((100% - 30px)/3);
+    justify-content: space-between;
+    border: 1px black solid;
+    margin-bottom: 15px;
+}
+
+.pink {
+    background-color: pink;
+    height: 200px;
+}
+
+.violet {
+    background-color: lightblue;
+    height: 200px;
+}
+
+.green {
+    background-color: rgb(108, 166, 92);
+    height: 200px;
+}
+
+
+
+
