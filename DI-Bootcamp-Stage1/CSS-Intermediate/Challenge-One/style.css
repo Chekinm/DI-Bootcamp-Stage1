@@ -27,13 +27,21 @@ body {
     box-sizing: border-box;
 }
 
-ul{
+ul.content{
     list-style-type: none;
     text-align: center;
+    padding: 15px;
+}
+
+ul.nav{
+    list-style: outside;
+    text-align: left;
+    padding: 15px 0px 0px 60px;
 }
 
 h1, h2 {
     padding: 15px;
+    letter-spacing: -0.05rem;
 }
 
 p.content {
